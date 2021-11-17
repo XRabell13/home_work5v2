@@ -1,12 +1,8 @@
-/*GLOBAL*/
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+@import "src/assets/styles/util/vars";
+@import "src/assets/styles/util/global";
+@import "src/assets/styles/sections/section_medicine";
+@import "src/assets/styles/sections/media/section_medicine_mobile";
+@import "src/assets/styles/sections/section_popular_category";
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
+@import "src/assets/styles/util/normalize";

@@ -1,0 +1,54 @@
+@media(max-width: 1050px){
+    body{
+        display: block;
+    }
+    .section__medicine{
+       
+        display: grid;  
+        grid-template-areas: 
+        "big-item_background-img big-item_background-img"
+        "big-item_background-img big-item_background-img"
+        "item-med_001 item-med_002"
+        "item-med_003 item-med_004";
+      
+        gap:$size-items-indention-adaptive;
+        margin: 0;
+       
+    }
+    .section__big-item{
+        width: $size-big-item-adaptive;
+      
+    }
+}
+@media(max-width: 600px){
+    .section__medicine{
+       
+        display: grid;  
+        align-items: center;
+        justify-content: center;
+        grid-template-areas: 
+        "big-item_background-img"
+        "big-item_background-img"
+        "item-med_001"
+        "item-med_002"
+        "item-med_003"
+        "item-med_004";
+      
+      
+        gap:$size-items-indention-adaptive;
+        margin: 0;
+       
+    }
+
+    .section__card{
+        margin: 0 25%;
+    }   
+    .title-big-item{
+        font-size: 22px;
+    }
+    .description-big-item{
+        font-size: 12px;
+       
+    }
+    
+}
