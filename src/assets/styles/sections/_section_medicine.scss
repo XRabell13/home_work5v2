@@ -1,16 +1,10 @@
-%size-img-med {
-  width: $size-item-med;
-  height:  $size-item-med;
-}
-
 .section__medicine{
-   
     display: grid;  
     grid-template-areas: 
     "big-item_background-img big-item_background-img big-item_background-img item-med_001 item-med_002"
     "big-item_background-img big-item_background-img big-item_background-img item-med_003 item-med_004";
     gap:$size-items-indention;
-    margin: 66px 160px;
+    margin: 66px $size-indention-margin-right;
     img{
         width: 100%;
         height: 100%;

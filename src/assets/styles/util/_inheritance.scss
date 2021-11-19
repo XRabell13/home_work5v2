@@ -1,5 +1,64 @@
-%message-shared {
-    border: 1px solid #ccc;
-    padding: 10px;
-    color: #333;
-  }
+/*SECTION MEDICINE*/
+%size-img-med {
+  width: $size-item-med;
+  height:  $size-item-med;
+}
+/*SECTION POPULAR CATEGORY*/
+%size-img-pop1 {
+  width: $size-item-pop;
+  height:  $size-item-pop;
+}
+%size-img-pop2 {
+  width: $size-large-item-pop;
+  height: $size-item-pop;
+}
+%size-big-img-pop {
+  width: $size-big-item-pop;
+  height:  $size-big-item-pop;
+}
+%orange-right-block-text {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: $size-indention-pop-padding-right;
+  mix-blend-mode: normal;
+  border-radius: 0px 0px 20px 20px;
+
+ 
+}
+%orange-right-block-title{
+  height: $size-item-pop;
+  width:$size-large-item-pop/2;
+  background: $c-bg-title;
+  mix-blend-mode: normal;
+  border-radius: 0px 20px 20px 0px;
+}
+%orange-right-block-content{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.67vw;
+  line-height: 150%;
+}
+%shadow-block-text{
+  width: 100%;
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 0px 0px 20px 20px; 
+  padding: 18px 0px;
+}
+%shadow-block-content{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.50vw;
+  line-height: 100%;
+  color: white;
+}
+%color-block-content{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25vw;
+  line-height: 100%;
+}
