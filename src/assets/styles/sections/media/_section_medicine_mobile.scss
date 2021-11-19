@@ -1,4 +1,3 @@
-
 @media(max-width: 1400px){
     .section__medicine{
        
@@ -12,6 +11,10 @@
         gap:$size-items-indention-adaptive;
         margin: 0;
        
+    }
+    .section__card{
+        width: $size-item-med-adaptive-1400;
+        height: $size-item-med;
     }
     .section__big-item{
         width: $size-big-item-adaptive;
@@ -33,13 +36,16 @@
         "item-med_004";
       
       
-        gap:$size-items-indention-adaptive;
+        grid-column-gap:$size-items-indention-adaptive;
+        grid-row-gap:0;
         margin: 0;
        
     }
 
     .section__card{
-        margin: 0 25%;
+        width: 64vw;
+        height: 64vw;
+        margin-left: 10%;
     }   
     .title-big-item{
         font-size: 22px;

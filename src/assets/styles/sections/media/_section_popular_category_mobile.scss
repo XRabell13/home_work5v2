@@ -1,3 +1,14 @@
-@media(max-width: 1900px){
+@media(max-width: 1400px){
+    .section__popular-category{
+        grid-template-areas:
+        "title title title title"
+        "item_003 item_003 item_001 item_001"
+        "item_003 item_003 item_002 item_002"
+        "item_004 item_004 item_005 item_005"
+        "item_004 item_004 item_005 item_005";
+        grid-row-gap: 50px;
+        grid-column-gap: 85px;
+        margin: 104px $size-indention-margin-right;
 
+    }
 }

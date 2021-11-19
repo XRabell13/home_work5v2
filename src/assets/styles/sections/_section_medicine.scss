@@ -15,6 +15,7 @@
     display: grid;
     align-items: flex-end;
     position: relative;
+    height:  $size-item-med;
     img{
         position: absolute;
         z-index: -100;
@@ -48,19 +49,15 @@
     grid-area: big-item_background-img;
 }
 .item_medicine_001{
-    @extend %size-img-med;
     grid-area: item-med_001;
 }
 .item_medicine_002{
-    @extend %size-img-med;
     grid-area: item-med_002;
 }
 .item_medicine_003{
-    @extend %size-img-med;
     grid-area: item-med_003;
 }
 .item_medicine_004{
-    @extend %size-img-med;
     grid-area: item-med_004;
 }
 .section__title-big-item{
