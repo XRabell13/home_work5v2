@@ -1,14 +1,81 @@
 @media(max-width: 1400px){
     .section__popular-category{
         grid-template-areas:
-        "title title title title"
-        "item_003 item_003 item_001 item_001"
-        "item_003 item_003 item_002 item_002"
-        "item_004 item_004 item_005 item_005"
-        "item_004 item_004 item_005 item_005";
-        grid-row-gap: 50px;
-        grid-column-gap: 85px;
-        margin: 104px $size-indention-margin-right;
-
+        "title title"
+        "item_003 item_003"
+        "item_001 item_004"
+        "item_002 item_005"
+        ;
+        grid-row-gap: 1.17vw;
+        grid-column-gap: 4.08vw;
+        margin: 0;
+    }
+    .title-popular{
+        text-align: center;
+    }
+    .pop-item__001, .pop-item__002{
+        width: $size-large-item-adaptive;
+        height: $size-item-pop-adaptive;
+        .popular__card-title{
+            width: ($size-large-item-adaptive)/2;
+            height: $size-item-pop-adaptive;
+            .card-title__content{
+                font-size: 2.33vw;
+            }
+        }
+    }
+   
+    .pop-item__003{
+        width: 100%;
+    }
+    .pop-item__004, .pop-item__005{
+        width: $size-large-item-adaptive;
+        height: $size-item-pop-adaptive;
+        .popular__card-title{
+            @include color-block-text($c-bg-puple,$c-white);
+            .card-title__content{
+                font-size: 2.25vw;
+            }
+        }
+    }
+}
+@media(max-width: 600px){
+    .section__popular-category{
+        grid-template-areas:
+        "title"
+        "item_003"
+        "item_001"
+        "item_002"
+        "item_004"
+        "item_005"
+        ;
+    }
+    .title-popular{
+        font-size: 5vw;
+    }
+    .pop-item__001, .pop-item__002{
+        width: $size-large-item-adaptive-600;
+        height: $size-item-pop-adaptive;
+        .popular__card-title{
+            width: ($size-large-item-adaptive-600)/2;
+            height: $size-item-pop-adaptive;
+            .card-title__content{
+                font-size: 3.33vw;
+            }
+        }
+    }
+   
+    .pop-item__003{
+        width: 100%;
+    }
+    .pop-item__004, .pop-item__005{
+        width: 100%;
+        height: $size-item-pop-adaptive-600;
+        .popular__card-title{
+            @include color-block-text($c-bg-puple,$c-white);
+            .card-title__content{
+                font-size: 3.33vw;
+            }
+        }
     }
 }

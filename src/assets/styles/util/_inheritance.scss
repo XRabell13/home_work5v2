@@ -11,6 +11,7 @@
   width: $size-large-item-pop;
   height: $size-item-pop;
 }
+
 %size-big-img-pop {
   width: $size-big-item-pop;
   height:  $size-big-item-pop;
@@ -21,16 +22,15 @@
   padding-right: $size-indention-pop-padding-right;
   mix-blend-mode: normal;
   border-radius: 0px 0px 20px 20px;
-
- 
 }
 %orange-right-block-title{
   height: $size-item-pop;
-  width:$size-large-item-pop/2;
+  width:($size-large-item-pop)/2;
   background: $c-bg-title;
   mix-blend-mode: normal;
   border-radius: 0px 20px 20px 0px;
 }
+
 %orange-right-block-content{
   display: grid;
   align-items: center;
